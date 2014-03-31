@@ -74,12 +74,12 @@
 
 
 <script language="javascript">
-	var TituloDocumento="<?php echo $idioma[$titulo]?>";
-	var DeseaEliminarRegistro="<?php echo $idioma["DeseaEliminarRegistro"]?>";
-	var DeseaModificarRegistro="<?php echo $idioma["DeseaModificarRegistro"]?>";
+	var TituloDocumento="<?php echo $titulo?>";
+	var DeseaEliminarRegistro="<?php echo "¿Desea Eliminar este Registro?"?>";
+	var DeseaModificarRegistro="<?php echo "¿Desea Modificar este Registro?"?>";
 	var folder="<?php echo $folder?>";
 	var mensajeg=Array();
-	mensajeg['EliminarRegistro']="<?php echo $idioma['EliminarRegistro']?>";
+	mensajeg['EliminarRegistro']="<?php echo '¿Desea Eliminar este Registro?'?>";
 	var DispositivoMovil=0;
 
 </script>
