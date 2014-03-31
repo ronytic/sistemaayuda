@@ -1,5 +1,5 @@
 <?php include_once($folder."login/check.php");
-$titulo="NMensajeRespuesta";
+$titulo="Mensaje de Respuesta";
 if(!isset($Nuevo)){
 	$Nuevo=1;	
 	if($ArchivoNuevo==''){
@@ -14,11 +14,11 @@ if(!isset($Listar)){
 }
 ?>
 <?php include_once($folder."cabecerahtml.php");?>
-<?php include_once($folder."cabecera.php");?>
+<?php include_once($folder."cabeceraadmin.php");?>
 
 <div class="col-sm-12">
 	<div class="widget-box">
-    	<div class="widget-header widget-header-flat"><h4><?php echo $idioma['Mensajes'] ?></h4></div>
+    	<div class="widget-header widget-header-flat"><h4><?php echo 'Mensajes' ?></h4></div>
         <div class="widget-body">
         	<div class="widget-main">
             	<ul class="list-unstyled">
@@ -32,10 +32,10 @@ if(!isset($Listar)){
 
 				<hr>
                 <?php if($Nuevo==1){?>
-                <a href="<?php echo $ArchivoNuevo?>" class="btn btn-info"><?php echo $idioma['Nuevo']?></a>
+                <a href="<?php echo $ArchivoNuevo?>" class="btn btn-info"><?php echo 'Nuevo'?></a>
                 <?php }?>
                 <?php if($Listar==1){?>
-                <a href="<?php echo $ArchivoListar?>" class="btn btn-success"><?php echo $idioma['Listar']?></a>
+                <a href="<?php echo $ArchivoListar?>" class="btn btn-success"><?php echo 'Listar'?></a>
                 <?php }?>
                 
                 <?php 
