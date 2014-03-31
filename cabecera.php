@@ -29,8 +29,8 @@
 				</div><!-- /.navbar-header -->
 
 				<div class="navbar-header pull-right" role="navigation">
-					<ul class="nav ace-nav">
-                    	<?php /* ?>
+					<?php /*<ul class="nav ace-nav">
+                    	 ?>
 						<li class="grey">
 							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
 								<i class="icon-tasks"></i>
@@ -239,7 +239,7 @@
 								</li>
 							</ul>
 						</li>
-						<?php */?>
+						<?php 
 						<li class="gray">
 							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
 								<img class="nav-user-photo" src="<?php echo $folder?>imagenes/usuarios/<?php echo $FotoSis?>" title="<?php echo $NombresSis." ".$ApellidoPSis?>" alt="<?php echo $NombresSis." ".$ApellidoPSis?>" />
@@ -265,7 +265,7 @@
 										<i class="icon-user"></i>
 										Profile
 									</a>
-								</li><?php */?>
+								</li>
 
 								<li class="divider"></li>
 
@@ -282,7 +282,7 @@
 								<i class="icon-off"></i>
 								<?php  echo $idioma['Salir']?>
 							</a>
-					</ul><!-- /.ace-nav -->
+					</ul><!-- /.ace-nav --> <?php */ ?>
 				</div><!-- /.navbar-header -->
 			</div><!-- /.container -->
 		</div>

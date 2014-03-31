@@ -75,6 +75,7 @@ $LogoIcono=$config->mostrarConfig("LogoIcono",1);
 $Sigla=$config->mostrarConfig("Sigla",1);
 $Gestion=$config->mostrarConfig("Gestion",1);
 $Titulo="Sistema de Gestión de Ayuda de Base de Datos";
+$LogoIcono="favicon.ico";
 ?>
 <!DOCTYPE html>
 <html lang="en">
